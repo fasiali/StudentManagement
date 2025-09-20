@@ -76,10 +76,10 @@ class StudentManagement
 
                 System.out.print("Enter marks: ");
                 int marks = sc.nextInt();
-                sc.nextLine(); // clear the buffer
+                sc.nextLine(); 
 
                 Student s = new Student(name, rollNo, marks);
-                students.add(s); // 👈 this adds to the ArrayList
+                students.add(s); 
 
                 System.out.println("Student added successfully.");
                 break;
